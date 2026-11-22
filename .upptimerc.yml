@@ -13,10 +13,10 @@ status-website:
   cname: status.getviewpoint.app
   name: Viewpoint status
   theme: dark
-  themeUrl: /assets/viewpoint.css
-  logoUrl: https://getviewpoint.app/assets/img/favicon.svg
-  favicon: https://getviewpoint.app/assets/img/favicon-32.png
-  faviconSvg: https://getviewpoint.app/assets/img/favicon.svg
+  themeUrl: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/viewpoint.css
+  logoUrl: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/lens.svg
+  favicon: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/app-icon-dark.svg
+  faviconSvg: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/app-icon-dark.svg
   customHeadHtml: <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   introTitle: "**Viewpoint** service status"
   introMessage: Live health of the Viewpoint API, web app and website, checked every few minutes from outside our servers.
