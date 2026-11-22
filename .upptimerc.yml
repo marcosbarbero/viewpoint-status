@@ -15,19 +15,19 @@ status-website:
   theme: dark
   # Viewpoint theme (vantage docs/product/brand.md). Upptime copies assets/ to the site root, so
   # these are same-origin; bump ?v= when a file changes so Cloudflare serves the new copy.
-  themeUrl: https://status.getviewpoint.app/viewpoint.css?v=3
-  favicon: https://status.getviewpoint.app/favicon-32.png?v=3
-  faviconSvg: https://status.getviewpoint.app/favicon.svg?v=3
+  themeUrl: https://status.getviewpoint.app/viewpoint.css?v=4
+  favicon: https://status.getviewpoint.app/favicon-32.png?v=4
+  faviconSvg: https://status.getviewpoint.app/favicon.svg?v=4
   hideNavLogo: true
   customHeadHtml: >-
     <meta name="theme-color" content="#101619">
-    <link rel="apple-touch-icon" href="https://status.getviewpoint.app/apple-touch-icon.png?v=3">
+    <link rel="apple-touch-icon" href="https://status.getviewpoint.app/apple-touch-icon.png?v=4">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap">
   customBodyHtml: >-
     <header class="vp-header"><div class="vp-header__inner">
-    <a class="vp-lockup" href="https://status.getviewpoint.app/" aria-label="Viewpoint status, home"><img src="https://status.getviewpoint.app/lens.svg?v=3" alt="" width="26" height="26"><span class="vp-wordmark">viewpoint</span></a>
+    <a class="vp-lockup" href="https://status.getviewpoint.app/" aria-label="Viewpoint status, home"><img src="https://status.getviewpoint.app/lens.svg?v=4" alt="" width="26" height="26"><span class="vp-wordmark">viewpoint</span></a>
     <span class="vp-header__divider" aria-hidden="true"></span><span class="vp-header__label">Status</span>
     <nav class="vp-header__nav" aria-label="Viewpoint"><a class="vp-header__site" href="https://getviewpoint.app/">getviewpoint.app</a></nav>
     </div></header>

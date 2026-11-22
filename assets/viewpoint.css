@@ -67,7 +67,6 @@ html body {
   font-family: var(--vp-text);
   font-size: 16px;
   line-height: 1.55;
-  font-feature-settings: "tnum" 1, "cv11" 1;
   -webkit-font-smoothing: antialiased;
   padding-bottom: 0;
 }
