@@ -10,8 +10,7 @@ sites:
     url: https://getviewpoint.app/
 
 status-website:
-  # Custom domain later (status.getviewpoint.app): replace baseUrl with `cname: status.getviewpoint.app` once the DNS CNAME exists.
-  baseUrl: /viewpoint-status
+  cname: status.getviewpoint.app
   name: Viewpoint status
   introTitle: "**Viewpoint** service status"
   introMessage: Live health of the Viewpoint API, web app and website, checked every few minutes from outside our servers.
