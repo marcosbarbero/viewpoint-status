@@ -13,15 +13,39 @@ status-website:
   cname: status.getviewpoint.app
   name: Viewpoint status
   theme: dark
-  themeUrl: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/viewpoint.css
-  logoUrl: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/lens.svg
-  favicon: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/app-icon-dark.svg
-  faviconSvg: https://cdn.jsdelivr.net/gh/marcosbarbero/viewpoint-status@master/assets/app-icon-dark.svg
-  customHeadHtml: <link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  introTitle: "**Viewpoint** service status"
-  introMessage: Live health of the Viewpoint API, web app and website, checked every few minutes from outside our servers.
-  navbar:
-    - title: Status
-      href: /
-    - title: Viewpoint
-      href: https://getviewpoint.app/
+  # Viewpoint theme (vantage docs/product/brand.md). Upptime copies assets/ to the site root, so
+  # these are same-origin; bump ?v= when a file changes so Cloudflare serves the new copy.
+  themeUrl: https://status.getviewpoint.app/viewpoint.css?v=3
+  favicon: https://status.getviewpoint.app/favicon-32.png?v=3
+  faviconSvg: https://status.getviewpoint.app/favicon.svg?v=3
+  hideNavLogo: true
+  customHeadHtml: >-
+    <meta name="theme-color" content="#101619">
+    <link rel="apple-touch-icon" href="https://status.getviewpoint.app/apple-touch-icon.png?v=3">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap">
+  customBodyHtml: >-
+    <header class="vp-header"><div class="vp-header__inner">
+    <a class="vp-lockup" href="https://status.getviewpoint.app/" aria-label="Viewpoint status, home"><img src="https://status.getviewpoint.app/lens.svg?v=3" alt="" width="26" height="26"><span class="vp-wordmark">viewpoint</span></a>
+    <span class="vp-header__divider" aria-hidden="true"></span><span class="vp-header__label">Status</span>
+    <nav class="vp-header__nav" aria-label="Viewpoint"><a class="vp-header__site" href="https://getviewpoint.app/">getviewpoint.app</a></nav>
+    </div></header>
+  introTitle: Service status
+  introMessage: Live health of the Viewpoint API, web app and website, checked about every five minutes from outside our servers.
+
+# Response-time chart on each history page, in the palette's cool.
+graphBackgroundColor: "rgba(145, 186, 203, 0.18)"
+graphBorderColor: "#91BACB"
+
+i18n:
+  liveStatus: Live status
+  allSystemsOperational: All systems operational
+  activeIncidents: Active incidents
+  pastIncidents: Past incidents
+  scheduledMaintenance: Scheduled maintenance
+  pastScheduledMaintenance: Past scheduled maintenance
+  incidentDetails: Incident details
+  incidentTitle: Incident $NUMBER details
+  incidentViewOnGitHub: View and subscribe on GitHub
+  footer: "Checks run from GitHub, outside our servers, with [Upptime](https://upptime.js.org). This page is [open source]($REPO)."
