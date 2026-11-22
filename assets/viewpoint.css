@@ -1,0 +1,34 @@
+/* Viewpoint brand (docs/product/brand.md §Colour): dark slate, amber accent, Inter. */
+:root {
+  --body-background-color: #101619;
+  --body-text-color: #F1F3EF;
+  --card-background-color: #1B2429;
+  --card-border-color: #34434A;
+  --nav-background-color: #0E1316;
+  --nav-border-bottom-color: #34434A;
+  --nav-current-border-bottom-color: #E8B15A;
+  --down-border-left-color: #E6A094;
+  --down-background-color: #2A1D1B;
+  --degraded-border-left-color: #E8873A;
+  --degraded-background-color: #2A2117;
+  --up-border-left-color: #7FD1A4;
+  --up-background-color: #16231D;
+  --tag-color: #241B0D;
+  --tag-up-background-color: #7FD1A4;
+  --tag-down-background-color: #E6A094;
+  --tag-degraded-background-color: #E8873A;
+  --change-background-color: #243037;
+  --error-button-border-color: #E6A094;
+  --error-button-background-color: #2A1D1B;
+  --error-button-color: #F1F3EF;
+  --submit-button-border-color: #E8B15A;
+  --submit-button-background-color: #E8B15A;
+  --submit-button-color: #241B0D;
+  --graph-opacity: 0.85;
+}
+body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #101619; color: #F1F3EF; }
+a { color: #91BACB; }
+nav a, footer a { color: #AAB5BB; }
+h1, h2, h3, h4 { color: #F1F3EF; letter-spacing: -0.01em; }
+article, .card, section > div { border-radius: 12px; }
+footer, .meta, small { color: #7D8A90; }
